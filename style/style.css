@@ -432,6 +432,9 @@ body {
   margin-right: 0.3rem;
 }
 
+.hamburgertext:hover {
+  color: white !important;
+}
 .hamburgericon {
   font-size: 2rem;
   line-height: 1em;
@@ -451,4 +454,94 @@ body {
   font-weight: 700;
   font-size: 14px;
   padding-left: 5px;
+}
+.link-container {
+  line-height: 1em;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  position: static;
+  float: none;
+  flex: 1 1 100%;
+  min-width: 0;
+  align-content: center;
+  padding-left: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.link-container a {
+  margin-left: 2.4rem;
+  text-decoration: none;
+  color: white;
+}
+.link-container :nth-child(1) {
+  margin-left: 0;
+}
+
+.nav-right .link-container a {
+  margin-right: 2.4rem;
+  font-weight: 700;
+  position: relative;
+}
+.white-hoverbox-hamburger {
+  position: relative;
+  overflow: visible;
+}
+.white-hoverbox-hamburger::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  z-index: 55;
+  opacity: 0;
+}
+
+.white-hoverbox-bottom {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-hoverbox-bottom::after {
+  content: "";
+  text-align: center;
+  height: 2.8rem;
+  width: 120%;
+
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  z-index: 55;
+  opacity: 0;
+}
+.white-hoverbox-top {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-hoverbox-top::after {
+  content: "";
+  text-align: center;
+  height: 5rem;
+  width: 100%;
+
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  z-index: 55;
+  opacity: 0;
+}
+
+.white-hoverbox-top:hover:after,
+.white-hoverbox-hamburger:hover:after,
+.white-hoverbox-bottom:hover:after {
+  opacity: 1;
+  text-decoration: none !important;
 }
