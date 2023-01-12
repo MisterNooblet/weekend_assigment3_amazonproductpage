@@ -3,7 +3,13 @@
 .txt-small {
   font-size: 1.2rem;
 }
+.txt-darkgray {
+  color: #333 !important;
+}
 
+.current-cat {
+  font-weight: 700;
+}
 body {
   font-family: inherit;
   line-height: 1em;
@@ -25,6 +31,9 @@ body {
   flex-flow: row nowrap;
   background-color: #131921;
   height: 6rem;
+}
+.nav-belt a {
+  text-decoration: none;
 }
 .nav-left {
   color: #0f1111;
@@ -69,7 +78,7 @@ body {
   background-position: -10px -51px;
   width: 9.7rem;
   height: 3rem;
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   pointer-events: none;
 }
 
@@ -130,9 +139,9 @@ body {
 
 .nav-line-1 {
   cursor: pointer;
-  float: left;
   clear: both;
   display: inline-block;
+  justify-content: start;
   font-size: 1.2rem;
   line-height: 1.4rem;
   height: 1.4rem;
@@ -544,4 +553,12 @@ body {
 .white-hoverbox-bottom:hover:after {
   opacity: 1;
   text-decoration: none !important;
+}
+
+.nav-third {
+  background-color: var(--third-nav-bg);
+  margin-left: 1.5rem;
+}
+.white-hoverbox-top .nav-line-1 {
+  align-self: flex-start;
 }
