@@ -432,8 +432,8 @@ body {
   margin-right: 0.3rem;
 }
 
-.hamburgertext:hover {
-  color: white !important;
+.hamburger:hover {
+  text-decoration: none !important;
 }
 .hamburgericon {
   font-size: 2rem;
