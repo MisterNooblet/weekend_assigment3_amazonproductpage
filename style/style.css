@@ -1,13 +1,37 @@
 /* text */
 
 .txt-small {
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
+}
+.txt-normal {
+  font-size: 1.4rem !important;
+}
+.txt-15 {
+  font-size: 1.5rem !important;
+}
+.txt-16 {
+  font-size: 1.6rem !important;
 }
 .txt-darkgray {
   color: #333 !important;
 }
+
+.txt-lightgray {
+  color: #565959;
+}
 .txt-pricered {
   color: #ae2e0e !important;
+}
+.txt-lb {
+  color: #007185 !important;
+}
+
+.txt-bold {
+  font-weight: 700 !important;
+}
+.chevron-small {
+  font-size: 0.7rem;
+  position: absolute;
 }
 
 .current-cat {
@@ -25,6 +49,21 @@ main {
   max-width: 1500px;
 }
 
+.product-title {
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 3.4rem;
+}
+
+.flex-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
 /* ************* */
 
 .nav-belt {
@@ -718,6 +757,10 @@ main .link-container a:hover {
   padding: 0 1.2rem;
 }
 
+.product-container a:hover {
+  cursor: pointer;
+  color: #c7511f !important;
+}
 /* images */
 
 .product-images {
@@ -777,22 +820,6 @@ main .link-container a:hover {
   background: url("/assets/images/picklejarbox.jpg") center center/contain
     no-repeat;
 }
-
-/* .bigimg1 {
-  background: url("/assets/images/picklejarbox.jpg") center center/contain
-    no-repeat;
-  z-index: ;
-}
-.bigimg2 {
-  background: url("/assets/images/picklejar.jpg") center center/contain
-    no-repeat;
-  opacity: 0;
-}
-.bigimg3 {
-  background: url("/assets/images/picklebox.jpg") center center/contain
-    no-repeat;
-  opacity: 0;
-} */
 /* buybox */
 .product-buy-box {
   display: flex;
@@ -808,6 +835,27 @@ main .link-container a:hover {
 }
 .price .primaryprice {
   font-size: 2.8rem;
+}
+
+/* product-description */
+
+#desc1,
+#desc2 {
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 1.4rem;
+}
+
+#desc2 ul {
+  list-style: none;
+}
+
+#desc2 i {
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+#desc3 ul {
+  padding-left: 1.8rem;
 }
 
 /* carousel title */
