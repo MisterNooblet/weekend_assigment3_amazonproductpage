@@ -6,6 +6,9 @@
 .txt-darkgray {
   color: #333 !important;
 }
+.txt-pricered {
+  color: #ae2e0e !important;
+}
 
 .current-cat {
   font-weight: 700;
@@ -558,7 +561,134 @@ body {
 .nav-third {
   background-color: var(--third-nav-bg);
   margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .white-hoverbox-top .nav-line-1 {
   align-self: flex-start;
+}
+.promo-nav {
+  background-color: var(--bottom-nav-bg);
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 0 solid;
+  border-width: 2px;
+  border-color: rgb(204 204 204 / 0.5);
+}
+.content-grid {
+  tab-size: 4;
+  font-family: "Amazon Ember", arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  direction: ltr;
+  border: 0 solid;
+  grid-template-areas: "headline promoImg productinfo";
+  grid-template-columns: 1fr auto auto;
+  grid-template-rows: auto;
+  margin: auto;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  gap: 16px;
+  padding-right: 16px;
+}
+
+.promoImgContainer {
+  grid-area: promoImg;
+  position: relative;
+  width: 6.5rem;
+  height: 5.3rem;
+}
+.promoImg {
+  background: url("/assets/images/promoimg.png") center no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.headline {
+  grid-area: headline;
+  tab-size: 4;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  border: 0 solid;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+  grid-area: headline;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.4rem;
+}
+
+.headline .text {
+  tab-size: 4;
+  font-family: "Amazon Ember", arial, sans-serif;
+
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-style: italic;
+  word-break: break-word;
+}
+
+.productinfo {
+  grid-area: productinfo;
+  tab-size: 4;
+  font-family: "Amazon Ember", arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  direction: ltr;
+  border: 0 solid;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.smallnavflex {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: "Amazon Ember", arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.ratingflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.ratingstars {
+  display: flex;
+  flex-direction: row;
+}
+.ratingtext {
+  line-height: 1.2;
+  font-weight: 700;
+  font-style: italic;
+  color: rgb(204 204 204);
+}
+
+.primaryprice {
+  line-height: 1.2;
+  font-size: 2.4rem;
+  vertical-align: text-top;
+}
+#primepromologo {
+  align-self: flex-end;
+  margin-bottom: 0.5rem;
 }
