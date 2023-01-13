@@ -697,14 +697,3 @@ main {
   align-self: flex-end;
   margin-bottom: 0.5rem;
 }
-
--webkit-text-size-adjust: 100%;
-font-size: 14px;
-line-height: 20px;
-color: #0f1111;
-font-family: "Amazon Ember", Arial, sans-serif;
-box-sizing: border-box;
-margin: 0 auto;
-min-width: 1000px;
-max-width: 1500px;
-background-color: #fff;
