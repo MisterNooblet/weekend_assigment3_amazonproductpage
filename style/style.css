@@ -714,10 +714,86 @@ main .link-container a:hover {
   grid-template-rows: 15fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 16px;
+  margin-top: 2rem;
+  padding: 0 1.2rem;
 }
-.pagecounter {
-  text-align: end;
+
+/* images */
+
+.product-images {
+  display: grid;
+  grid-template-columns: 6fr 94fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 16px;
 }
+
+/* tiny images */
+
+.tiny-images {
+  position: relative;
+}
+
+.tinyimg {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.tinyimg:hover {
+  box-shadow: 0 0 0.5rem 0.1rem rgb(224, 146, 0);
+}
+
+.tinyimg1:hover ~ .bigimg {
+  opacity: 0;
+}
+.tinyimg2:hover ~ .bigimg {
+  background: url("/assets/images/picklejar.jpg") center center/contain
+    no-repeat;
+}
+
+.tinyimg1 {
+  background: url("/assets/images/picklejarboxsmall.jpg");
+}
+.tinyimg2 {
+  background: url("/assets/images/picklejarsmall.jpg");
+}
+.tinyimg3 {
+  background: url("/assets/images/pickleboxsmall.jpg");
+}
+
+.bigpicture {
+  position: relative;
+  width: 100%;
+  height: 100;
+}
+
+.bigimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("/assets/images/picklejarbox.jpg") center center/contain
+    no-repeat;
+}
+
+/* .bigimg1 {
+  background: url("/assets/images/picklejarbox.jpg") center center/contain
+    no-repeat;
+  z-index: ;
+}
+.bigimg2 {
+  background: url("/assets/images/picklejar.jpg") center center/contain
+    no-repeat;
+  opacity: 0;
+}
+.bigimg3 {
+  background: url("/assets/images/picklebox.jpg") center center/contain
+    no-repeat;
+  opacity: 0;
+} */
+/* buybox */
 .product-buy-box {
   display: flex;
   flex-direction: column;
@@ -734,17 +810,8 @@ main .link-container a:hover {
   font-size: 2.8rem;
 }
 
--webkit-text-size-adjust: 100%;
-font-size: 14px;
-line-height: 20px;
-color: #0f1111;
-font-family: "Amazon Ember", Arial, sans-serif;
-text-align: center !important;
-box-sizing: border-box;
-width: 100%;
-margin-bottom: 0 !important;
-display: table !important;
-table-layout: fixed;
-zoom: 1;
-border-collapse: collapse;
-opacity: 1;
+/* carousel title */
+
+.pagecounter {
+  text-align: end;
+}
