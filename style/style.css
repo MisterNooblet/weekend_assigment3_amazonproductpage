@@ -697,3 +697,54 @@ main {
   align-self: flex-end;
   margin-bottom: 0.5rem;
 }
+/* Main Page */
+main .link-container a {
+  margin-left: 0.7rem;
+}
+main .link-container a:hover {
+  text-decoration: underline;
+}
+.arrowseperator {
+  margin-left: 0.7rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: 45fr 35fr 16fr;
+  grid-template-rows: 15fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 16px;
+}
+.pagecounter {
+  text-align: end;
+}
+.product-buy-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d5d9d9;
+  border-radius: 1rem;
+  padding: 1.4rem 2.6rem;
+  grid-area: 1 / 3 / 3 / 4;
+}
+.price .currency,
+.price .decimal {
+  font-size: 1.3rem;
+}
+.price .primaryprice {
+  font-size: 2.8rem;
+}
+
+-webkit-text-size-adjust: 100%;
+font-size: 14px;
+line-height: 20px;
+color: #0f1111;
+font-family: "Amazon Ember", Arial, sans-serif;
+text-align: center !important;
+box-sizing: border-box;
+width: 100%;
+margin-bottom: 0 !important;
+display: table !important;
+table-layout: fixed;
+zoom: 1;
+border-collapse: collapse;
+opacity: 1;
