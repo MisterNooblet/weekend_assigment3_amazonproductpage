@@ -104,8 +104,8 @@
       <div class="link-container">
         <a href="#" class="nav2link white-hoverbox-bottom">Today's Deals</a>
         <a href="#" class="nav2link white-hoverbox-bottom">Customer Service</a>
-        <a href="#" class="nav2link white-hoverbox-bottom">Gift Cards</a>
         <a href="#" class="nav2link white-hoverbox-bottom">Registry</a>
+        <a href="#" class="nav2link white-hoverbox-bottom">Gift Cards</a>
         <a href="#" class="nav2link white-hoverbox-bottom">Sell</a>
       </div>
     </div>
@@ -188,6 +188,7 @@
         </div>
         <div class="bigpicture">
           <div id="bigimg" class="bigimg bigimg1"></div>
+          <div id="imgtxt" class="txt-lightgray">Roll over image to zoom in</div>
         </div>
       </div>
       <div class="product-description flex-left">
@@ -197,25 +198,14 @@
           <div class="smallnavflex">
             <div class="ratingflex">
               <div class="ratingstars">
-                <img data-testid="starFull" aria-hidden="true" aria-label=""
-                  src="/assets/images/icons/star-fullfill.svg" width="15" height="15" class="inline-block" />
-                <img data-testid="starFull" aria-hidden="true" aria-label=""
-                  src="/assets/images/icons/star-fullfill.svg" width="15" height="15" class="inline-block" />
-                <img data-testid="starFull" aria-hidden="true" aria-label=""
-                  src="/assets/images/icons/star-fullfill.svg" width="15" height="15" class="inline-block" />
-                <img data-testid="starFull" aria-hidden="true" aria-label=""
-                  src="/assets/images/icons/star-fullfill.svg" width="15" height="15" class="inline-block" />
-                <img data-testid="starHalf" aria-hidden="true" aria-label=""
-                  src="/assets/images/icons/star-halffill.svg" width="15" height="15" class="inline-block" />
+                <div class="star45"></div>
+
+                <div class="ratingtext2"><a href="#" class="txt-lb"><i
+                      class="fa-solid fa-chevron-down chevron-small"></i></a></div>
               </div>
-              <div class="ratingtext txt-small">35</div>
             </div>
-            <div class="ratingstars txt-pricered">
-              <div class="currency txt-small">$</div>
-              <div class="primaryprice">11</div>
-              <div class="decimal txt-small">99</div>
-              <img id="primepromologo" src="/assets/images/icons/prime-logo.svg" width="42" height="12" alt="Prime"
-                class="inline-block top-[3px] bottom-[5px] left-[2px] right-[6px] mb-0.25">
+            <div class="ratingstars">
+              <a href="#" class="txt-lb">351 ratings</a>
             </div>
           </div>
         </div>
@@ -227,7 +217,9 @@
           </div>
           <span class="txt-lightgray">No Import Fees Deposit & $11.74 Shipping to Israel <a href="#"
               class="txt-lb">Details<i class="fa-solid fa-chevron-down chevron-small"></i></a></span>
-          <span>Available at a lower price from other sellers that may not offer free Prime shipping.</span>
+          <span>Available at a lower price from <a href="#" class="txt-lb">other sellers</a> that may not offer free
+            Prime
+            shipping.</span>
           <div class="flex-row">
             <ul class="txt-bold">
               <li>Brand</li>
@@ -247,7 +239,7 @@
           </div>
         </div>
         <div id="desc3" class="flex-left">
-          <span>About this item</span>
+          <span class="txt-16 txt-bold">About this item</span>
           <ul>
             <li>SDCC Rick and Morty Pickle Rick "Pickle Jar" Glass Mason Jar Exclusive.</li>
             <li>Yes, It's finally here people! Pickle Rick inside his very own 20oz Glass Pickle Mason Jar! Comes with a
@@ -268,48 +260,42 @@
           <div class="primaryprice">33</div>
           <div class="decimal txt-small">99</div>
         </div>
-        <br>
-        <p>No Import Fees Deposit & $11.74 Shipping to Israel Details</p>
-        <i class="fa-solid fa-chevron-down"></i>
-        <br>
-        <p>FREE delivery Monday, January 30 to Israel on eligible orders over $49. Order within 7 hrs 13 mins</p>
-        <br>
-        <p>Or fastest delivery Monday, January 23</p>
-        <br>
-        <div class="deliver"><a href="">Deliver to Israel</a></div>
-        <br>
-        In Stock.
-        <br>
-        <button class="quantity-button">
-          <span>Qty: 1</span><i class="fa-solid fa-chevron-down"></i>
-        </button>
-        <br>
-        <button class="button-wide button-yellow">Add to Cart</button>
-        <br>
-        <button class="button-wide button-Orange">Buy Now</button>
-        <br>
-        <div class="deliver"><i class="fa-solid fa-lock"></i><a href="">Secure transaction</a></div>
-        <br>
-        <div class="warehouse-container">
-          <div class="keys">
-            <p>Ships from</p>
-            <p>Sold by</p>
-          </div>
-          <div class="values">
-            <p>Amazon</p>
-            <p><a href="">ONLYWHOLESALE</a></p>
-          </div>
+        <span class="txt-lightgray">No Import Fees Deposit & $11.74 Shipping to Israel <a href="#"
+            class="txt-lb">Details<i class="fa-solid fa-chevron-down chevron-small"></i></a></span>
+        <p><span class="txt-bold">FREE</span> delivery <span class="txt-bold">Monday, January 30</span> to Israel on
+          eligible orders over $49. Order
+          within 10 hrs 17 mins</p>
+
+        <p>Or fastest delivery <span class="txt-bold">Monday, January 23</span></p>
+        <div><span class="locationico buyico"></span> <span><a href="#" class="txt-small txt-lb">Deliver to
+              Israel</a></span>
         </div>
-        <br>
-        <p>Return policy: <a href="">Eligible for Return, Refund or Replacement within 30 days of receipt <i
-              class="fa-solid fa-chevron-down"></i></a></p>
-        <input type="checkbox" name="" id=""><span>Add a gift receipt for easy returns</span>
-        <div class="wishlist">
-          <button class="button-wide">Add to List</button>
+        <span class="txt-18 txt-green">In Stock.</span>
+        <div><button class="qty-btn"><span class="txt-small">Qty: 1 <i
+                class="fa-solid fa-chevron-down chevron-small"></i></span></button></div>
+        <button class="yellow-btn wide-btn">Add to Cart</button>
+        <button class="orange-btn wide-btn">Buy Now</button>
+        <div><span class="padlockico buyico"></span> <span><a href="#" class="txt-lb">Secure transaction</a></span>
         </div>
+        <div>
+          <ul class="txt-small txt-lightgray">
+            <li>Ships from</li>
+            <li>Sold by</li>
+          </ul>
+          <ul>
+            <li class="txt-small">Amazon</li>
+            <li><a href="#" class="txt-lb txt-small">ONLYWHOLESALE</a></li>
+          </ul>
+        </div>
+        <p>Return policy: <a href="#" class="txt-lb">Eligible for Return, Refund or Replacement within 30 days of
+            receipt<i class="fa-solid fa-chevron-down chevron-small"></i></a></p>
+        <div><input type="checkbox" name="" id="">Add a gift receipt for easy returns</div>
+        <br class="borderbreak">
+        <button class="list-btn">Add to List</button>
       </div>
-      <div class="related-products">Products related to this item</div>
-      <div class="pagecounter">Page 1 of 41</div>
+    </div>
+    <div class="related-products">Products related to this item</div>
+    <div class="pagecounter">Page 1 of 41</div>
     </div>
   </main>
 </body>

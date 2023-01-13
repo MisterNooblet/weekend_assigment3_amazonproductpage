@@ -12,6 +12,16 @@
 .txt-16 {
   font-size: 1.6rem !important;
 }
+.txt-17 {
+  font-size: 1.7rem !important;
+}
+.txt-18 {
+  font-size: 1.8rem !important;
+}
+
+.txt-green {
+  color: #007600 !important;
+}
 .txt-darkgray {
   color: #333 !important;
 }
@@ -761,6 +771,7 @@ main .link-container a:hover {
   cursor: pointer;
   color: #c7511f !important;
 }
+
 /* images */
 
 .product-images {
@@ -811,14 +822,46 @@ main .link-container a:hover {
   position: relative;
   width: 100%;
   height: 100;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.bigpicture:after {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: url("/assets/images/icons/share-std.svg");
+  width: 2.4rem;
+  height: 2.4rem;
+  z-index: 5;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.bigpicture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #dedede;
+  border-radius: 5rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  z-index: 4;
+  margin-right: 1.5rem;
+  cursor: pointer;
 }
 
 .bigimg {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 95%;
   background: url("/assets/images/picklejarbox.jpg") center center/contain
     no-repeat;
+  top: 0;
 }
 /* buybox */
 .product-buy-box {
@@ -826,7 +869,7 @@ main .link-container a:hover {
   flex-direction: column;
   border: 1px solid #d5d9d9;
   border-radius: 1rem;
-  padding: 1.4rem 2.6rem;
+  padding: 1.4rem 1.7rem;
   grid-area: 1 / 3 / 3 / 4;
 }
 .price .currency,
@@ -837,7 +880,34 @@ main .link-container a:hover {
   font-size: 2.8rem;
 }
 
+.locationico {
+  min-width: 16px;
+  height: 14px;
+  float: left;
+  background-image: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.padlockico {
+  width: 15px;
+  height: 15px;
+  float: left;
+  background-image: url("/assets/images/icons/padlock.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
 /* product-description */
+
+.product-description * {
+  padding-top: 2px;
+}
 
 #desc1,
 #desc2 {
@@ -848,18 +918,36 @@ main .link-container a:hover {
 #desc2 ul {
   list-style: none;
 }
+#desc2 li {
+  padding: 0.8rem 0;
+  margin-right: 1rem;
+}
 
 #desc2 i {
   padding-top: 4px;
   padding-left: 4px;
 }
-
+.ratingtext2 i {
+  margin-left: 0.5rem;
+}
 #desc3 ul {
   padding-left: 1.8rem;
 }
-
+#desc3 li {
+  padding: 2px 0;
+  line-height: 2rem;
+}
 /* carousel title */
 
 .pagecounter {
   text-align: end;
+}
+
+.star45 {
+  height: 1.8rem;
+  width: 8rem;
+  background-image: url("/assets/images/icons/stars.png");
+  background-size: 512px 512px;
+  background-repeat: no-repeat;
+  background-position: -2px -42px;
 }
