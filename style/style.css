@@ -872,6 +872,10 @@ main .link-container a:hover {
   padding: 1.4rem 1.7rem;
   grid-area: 1 / 3 / 3 / 4;
 }
+
+.product-buy-box * {
+  margin-top: 1rem;
+}
 .price .currency,
 .price .decimal {
   font-size: 1.3rem;
@@ -901,6 +905,61 @@ main .link-container a:hover {
   background-position: center;
   background-size: contain;
   margin-right: 5px;
+}
+
+.qty-btn {
+  font-size: 14px;
+  line-height: 20px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  text-decoration: none !important;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+  border-color: #d5d9d9;
+  border-radius: 8px;
+  background: #f0f2f2;
+}
+
+.yellow-btn {
+  line-height: 20px;
+  margin-bottom: 8px !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none !important;
+  background: #ffd814;
+  border-color: #fcd200;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+  border-radius: 20px;
+  padding: 5px 0;
+}
+
+.orange-btn {
+  line-height: 20px;
+  margin-bottom: 8px !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none !important;
+  background: #ffa41c;
+  border-color: #ff8f00;
+  box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+  border-radius: 20px;
+  padding: 5px 0;
+}
+
+.list-btn {
+  background: #eef0f2;
+  border-radius: 3px;
+  border-color: #d5d9d9;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  text-align: start;
+  text-decoration: none !important;
 }
 
 /* product-description */
