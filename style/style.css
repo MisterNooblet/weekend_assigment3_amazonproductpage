@@ -3,6 +3,7 @@
 .txt-small {
   font-size: 1.2rem !important;
 }
+
 .txt-normal {
   font-size: 1.4rem !important;
 }
@@ -1076,6 +1077,15 @@ main .link-container a:hover {
   background-repeat: no-repeat;
   background-position: -2px -42px;
 }
+.primelogosmall {
+  background-image: url("/assets/images/icons/icons.png");
+  background-size: 512px 256px;
+  background-repeat: no-repeat;
+  vertical-align: baseline;
+  width: 42px;
+  height: 12px;
+  background-position: -138px -73px;
+}
 
 .carouseltitle {
   text-rendering: optimizeLegibility;
@@ -1161,4 +1171,34 @@ main .link-container a:hover {
   height: 15px;
   background-position: -105px -7px;
   margin: 5px 6px 5px 5px;
+}
+
+.carouselbox {
+  height: 30.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carouselcard {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+.carouselcard img {
+  width: 16rem;
+  height: 16rem;
+}
+.coupon {
+  padding-top: 4px;
+  color: #111111;
+  font-size: 11px;
+  font-family: AmazonEmber, "Amazon Ember", Arial, sans-serif;
+  display: flex;
+}
+.labelwrap {
+  background-color: #7fda6a;
+  padding: 0.4rem;
+}
+.coupontxt {
+  margin-top: 0.4rem;
 }
