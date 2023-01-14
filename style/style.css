@@ -1283,6 +1283,7 @@ main .link-container a:hover {
 }
 /* zoombox */
 #zoombox {
+  clear: both;
   position: absolute;
   width: 50%;
   height: 70%;
@@ -1293,5 +1294,24 @@ main .link-container a:hover {
   border: 1px solid black;
   -webkit-box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
   box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
-  display: none;
+  /* display: none; */
+  overflow: hidden;
+}
+.zoomimgcontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#hugepic {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-color: #007600;
+  background: url("/assets/images/picklejarbox.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
 }
