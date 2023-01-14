@@ -1233,3 +1233,7 @@ main .link-container a:hover {
 .pg2 {
   display: none;
 }
+
+#startover {
+  display: none;
+}
