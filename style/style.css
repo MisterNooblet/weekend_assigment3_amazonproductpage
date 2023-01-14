@@ -1077,6 +1077,16 @@ main .link-container a:hover {
   background-repeat: no-repeat;
   background-position: -2px -42px;
 }
+
+.star5 {
+  height: 1.8rem;
+  width: 8rem;
+  background-image: url("/assets/images/icons/stars.png");
+  background-size: 512px 512px;
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+}
+
 .primelogosmall {
   background-image: url("/assets/images/icons/icons.png");
   background-size: 512px 256px;
@@ -1183,6 +1193,8 @@ main .link-container a:hover {
   width: 16rem;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  line-height: 2rem;
 }
 .carouselcard img {
   width: 16rem;
@@ -1201,4 +1213,8 @@ main .link-container a:hover {
 }
 .coupontxt {
   margin-top: 0.4rem;
+}
+
+.displaynone {
+  display: none;
 }
