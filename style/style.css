@@ -1069,6 +1069,15 @@ main .link-container a:hover {
   text-align: end;
 }
 
+.star35 {
+  height: 1.8rem;
+  width: 8rem;
+  background-image: url("/assets/images/icons/stars.png");
+  background-size: 512px 512px;
+  background-repeat: no-repeat;
+  background-position: -2px -82px;
+}
+
 .star45 {
   height: 1.8rem;
   width: 8rem;
@@ -1216,5 +1225,11 @@ main .link-container a:hover {
 }
 
 .displaynone {
+  display: none;
+}
+.pg1 {
+  display: inline;
+}
+.pg2 {
   display: none;
 }
