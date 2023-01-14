@@ -651,6 +651,25 @@ main {
   background-color: var(--third-nav-bg);
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.nav-third a {
+  position: relative;
+}
+.nav-third a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -0.8rem;
+  left: 0;
+  border-bottom: 2px solid orange;
+  opacity: 0;
+}
+.nav-third a:hover:after {
+  opacity: 100;
+}
+.nav-third a:hover {
+  color: orange !important;
 }
 .white-hoverbox-top .nav-line-1 {
   align-self: flex-start;
@@ -805,6 +824,7 @@ main .link-container a:hover {
 .product-container a:hover {
   cursor: pointer;
   color: #c7511f !important;
+  position: relative;
 }
 
 /* images */
@@ -1260,4 +1280,18 @@ main .link-container a:hover {
 }
 .dimhover:hover:after {
   opacity: 10%;
+}
+/* zoombox */
+#zoombox {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  bottom: 5%;
+  right: 2%;
+  z-index: 6;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
+  box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
+  display: none;
 }
