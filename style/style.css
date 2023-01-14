@@ -1293,7 +1293,7 @@ main .link-container a:hover {
   border: 1px solid black;
   -webkit-box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
   box-shadow: -5px 5px 9px 1px rgba(0, 0, 0, 0.19);
-  /* display: none; */
+  display: none;
   overflow: hidden;
 }
 .zoomimgcontainer {
