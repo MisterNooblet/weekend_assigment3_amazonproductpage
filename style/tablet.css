@@ -3,7 +3,8 @@
 .carousel {
   grid-template-columns: 1fr;
 }
-nav {
+header {
+  width: 100vw;
 }
 body {
   min-width: 0;
