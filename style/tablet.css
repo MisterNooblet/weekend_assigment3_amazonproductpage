@@ -1,9 +1,9 @@
 @import url("/style/style.css");
+
 .carousel {
   grid-template-columns: 1fr;
 }
 nav {
-  width: 100%;
 }
 body {
   min-width: 0;

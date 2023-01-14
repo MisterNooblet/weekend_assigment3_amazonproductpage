@@ -15,8 +15,25 @@ nav,
 .carousel {
   display: none;
 }
-/*  */
 
+#mobile,
+.mobilecontent {
+  display: inline;
+}
+/*  */
+.flex-left {
+  display: flex;
+  justify-content: start;
+}
+.flex-right {
+  display: flex;
+  justify-content: end;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+/*  */
 .navdarkblue {
   background-color: #232f3e;
   display: flex;
