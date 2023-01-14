@@ -143,4 +143,12 @@ nav,
 .mobilecontent {
   display: flex;
   flex-direction: column;
+  padding: 0px;
+}
+
+#mobileimagebox {
+}
+#mobileimagebox img {
+  height: 290px;
+  width: 100vw;
 }
