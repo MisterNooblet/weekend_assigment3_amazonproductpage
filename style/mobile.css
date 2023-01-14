@@ -15,41 +15,115 @@ nav,
 .carousel {
   display: none;
 }
-.nav-fill,
-.nav-search-bar,
-.search-field,
-.nav-search-input {
-  border-radius: 5px 0px 0px 5px;
-}
-.nav-magnify {
-  padding-right: 10px;
-  z-index: 10;
-}
-.nav-belt * {
-  margin: 0;
+/*  */
+
+.navdarkblue {
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav-belt {
-  display: flex;
-  justify-content: space-between;
-  height: auto !important;
+.mobile-hamburger {
+  padding: 14px 14px;
 }
-#mobilenav {
-  display: flex;
-  flex-direction: column;
+.mobile-hamburger i {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
+  background-size: 275px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-position: -20px -378px;
 }
-.nav-logo {
-  margin-top: 0;
+.mobilelogo {
+  margin-top: 1.3rem;
   text-indent: -500px;
-  padding: 0px 40px 0 20px;
+  padding: 10px 40px 0 20px;
   background-position: -10px -50px;
   width: 80px;
   height: 27px;
   background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
   background-size: 275px;
 }
-.mobilehamburg {
-  padding: 1.5rem 0 0 1.5rem;
+.leftside {
+  display: flex;
 }
-.nav-right {
+.rightside {
+  display: flex;
+}
+
+.personicon {
+  padding: 9px 0 12px 4px;
+}
+.personicon i {
+  background-position: -141px -300px;
+  width: 35px;
+  height: 27px;
+  display: block;
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
+  background-size: 275px;
+}
+.carticon {
+  display: flex;
+  padding: 10px 18px 11px 12px;
+
+  padding-left: 7px;
+}
+.carticon i {
+  -webkit-text-size-adjust: none;
+  font-size: 12px;
+  line-height: 1em;
+  -webkit-tap-highlight-color: transparent;
+  color: #007185;
+  font-family: inherit;
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+  display: block;
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-account._CB658093420_.png");
+  background-size: 275px;
+  order: 2;
+  position: static;
+  background-position: -10px -240px;
+  width: 37px;
+  height: 27px;
+}
+.signintxt {
+  padding: 17px 0px 11px 12px;
+  color: white;
+  font-size: 13px !important;
+}
+
+.navdarkblue {
+  position: relative;
+}
+.navdarkblue input {
+}
+.navlightblue {
+  display: flex;
+  justify-content: start;
+  background-color: #37475a;
+}
+.navlightblue * {
+  margin: 0;
+}
+.nav-link-box {
+  margin: 0 !important;
+}
+.navad {
+  display: flex;
+  background-color: #f7f8f8;
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(225, 225, 225, 0.74);
+  box-shadow: 0px 6px 6px 0px rgba(225, 225, 225, 0.74);
+}
+.textadmob {
+  display: flex;
+  line-height: 2.5rem;
+  flex-direction: column;
+}
+
+/*  */
+
+.mobilecontent {
+  display: flex;
+  flex-direction: column;
 }
