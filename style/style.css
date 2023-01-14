@@ -61,11 +61,14 @@ body {
   font-family: inherit;
   line-height: 1em;
   font-size: 1.4rem;
-}
-main {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1500px;
+}
+html {
+  height: fit-content;
+}
+main {
 }
 
 .product-title {
@@ -864,13 +867,13 @@ main .link-container a:hover {
 }
 
 .tinyimg1 {
-  background: url("/assets/images/picklejarboxsmall.jpg");
+  background: url("/assets/images/picklejarboxsmall.jpg") center center/cover;
 }
 .tinyimg2 {
-  background: url("/assets/images/picklejarsmall.jpg");
+  background: url("/assets/images/picklejarsmall.jpg") center center/cover;
 }
 .tinyimg3 {
-  background: url("/assets/images/pickleboxsmall.jpg");
+  background: url("/assets/images/pickleboxsmall.jpg") center center/cover;
 }
 
 .bigpicture {
