@@ -201,7 +201,8 @@ table.infotable th {
   padding: 3px 2px;
 }
 table.infotable tbody td {
-  font-size: 13px;
+  font-size: 14px;
+  padding: 2rem 1rem;
 }
 table.infotable td:nth-child(even) {
   background: #ffffff;
@@ -218,4 +219,7 @@ table.infotable tfoot .links a {
   color: #ffffff;
   padding: 2px 8px;
   border-radius: 5px;
+}
+.infotable a {
+  color: #007185;
 }
