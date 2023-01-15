@@ -171,3 +171,17 @@ nav,
 .borderbreak {
   border-bottom: #e3e6e6 3px solid;
 }
+.mobilecontent ul {
+  list-style: none;
+}
+.detailslist li {
+  margin-bottom: 2rem;
+}
+.cooking {
+  padding: 2rem 0;
+  line-height: 2rem;
+}
+.mobilegalery img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
