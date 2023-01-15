@@ -139,6 +139,7 @@ nav,
   display: flex;
   flex-direction: column;
   padding: 0 10px;
+  line-height: 2rem;
 }
 .mobileimagebox {
   position: relative;
@@ -159,7 +160,7 @@ nav,
   flex-direction: column;
   border: none;
   border-radius: 1rem;
-  padding: 0;
+  padding: 1rem;
   grid-area: auto;
   line-height: 2rem;
 }
@@ -173,6 +174,7 @@ nav,
 }
 .mobilecontent ul {
   list-style: none;
+  padding-left: 1rem;
 }
 .detailslist li {
   margin-bottom: 2rem;
@@ -184,4 +186,36 @@ nav,
 .mobilegalery img {
   width: 100%;
   margin-bottom: 2rem;
+}
+
+table.infotable {
+  border: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.infotable td,
+table.infotable th {
+  border: 1px solid #aaaaaa;
+  padding: 3px 2px;
+}
+table.infotable tbody td {
+  font-size: 13px;
+}
+table.infotable td:nth-child(even) {
+  background: #ffffff;
+}
+table.infotable tfoot td {
+  font-size: 14px;
+}
+table.infotable tfoot .links {
+  text-align: right;
+}
+table.infotable tfoot .links a {
+  display: inline-block;
+  background: #1c6ea4;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
