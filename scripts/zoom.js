@@ -25,8 +25,4 @@ bigimg.addEventListener("mousemove", function (event) {
 
   document.getElementById("hugepic").style.top = `-${heightPercent}%`;
   document.getElementById("hugepic").style.left = `-${widthPercent}%`;
-
-  console.log("Cursor position: " + x + "," + y);
-  console.log("Cursor percents: " + widthPercent + "," + heightPercent);
-  console.log(rect.width);
 });
